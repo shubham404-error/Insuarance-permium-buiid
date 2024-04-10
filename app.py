@@ -7,9 +7,9 @@ model = pickle.load(open("linear_reg.pkl", 'rb'))
 
 # Load the data for dropdown options
 data = pd.read_csv('./clean_data.csv')
-
+st.set_page_config(page_title=InsuaranceWiz, page_icon='🧙‍♂️', layout="centered",
 # App Title
-st.title("Medical Insurance Cost Prediction")
+st.title("InsuaranceWiz🧙‍♂️🪄-Medical Insurance Cost Prediction")
 
 # Sidebar with Explanations
 with st.sidebar:
