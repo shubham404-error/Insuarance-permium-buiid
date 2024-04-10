@@ -3,7 +3,7 @@ import pandas as pd
 import pickle
 from sklearn.ensemble import GradientBoostingRegressor
 # Load the model
-model= pickle.load(open("gradient_boosting_regressor_model.pkl", 'rb'))
+model= pickle.load(open("linear_reg.pkl", 'rb'))
 
 # Load the data for dropdown options
 data = pd.read_csv('./clean_data.csv')
